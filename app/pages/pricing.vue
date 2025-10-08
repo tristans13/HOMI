@@ -3,7 +3,9 @@
 </script>
 
 <template>
-    <div>
-        <h1>This is Pricing</h1>
-    </div>
+    <NuxtLayout name="homi-layout">
+        <div class="p-5"> 
+            <h1>This is my pricing page</h1>
+        </div>
+    </NuxtLayout>
 </template>

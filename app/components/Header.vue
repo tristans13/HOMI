@@ -12,29 +12,17 @@
       />
 
     </div>
-    <div class="flex items-center space-x-8">
-        <NuxtLink to="/">Home</NuxtLink>
-        <NuxtLink to="/features">Features</NuxtLink>
-        <NuxtLink to="/solutions">Solutions</NuxtLink>
-        <NuxtLink to="/pricing">Pricing</NuxtLink>
+    <div class="flex items-center space-x-15">
+        <NuxtLink class="uppercase" active-class="underline text-blue-500 font-semibold" to="/">Home</NuxtLink>
+        <NuxtLink class="uppercase" active-class="underline text-blue-500 font-semibold" to="/features">Features</NuxtLink>
+        <NuxtLink class="uppercase" active-class="underline text-blue-500 font-semibold" to="/solutions">Solutions</NuxtLink>
+        <NuxtLink class="uppercase" active-class="underline text-blue-500 font-semibold" to="/pricing">Pricing</NuxtLink>
     </div>
 
-    <div class="flex items-center space-x-4">
+    <div class="flex items-center space-x-1">
       <Button variant="ghost">Login</Button>
-      <Button class="w-96px ">Sign Up</Button>
+      <Button class="w-26">Signup</Button>
     </div>
 
   </header>
 </template>
-
-<style scoped>
-header {
-  font-family: 'Inter', sans-serif;
-  letter-spacing: 0.02em;
-}
-
-img {
-  display: inline-block;
-  vertical-align: middle;
-}
-</style>
