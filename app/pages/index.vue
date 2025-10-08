@@ -1,7 +1,11 @@
 <template>
   <div>
-    <Button>Hello</Button>
+    <NuxtLayout name="homi-layout">
+      
+    </NuxtLayout>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+
+</script>
