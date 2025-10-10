@@ -2,7 +2,7 @@
   <NuxtLayout name="homi-layout">
     <div class="bg-[#F7F7F7]">
       <section
-        class="relative w-screen h-[800px] bg-cover bg-no-repeat bg-center flex items-center"
+        class="relative w-screen h-[800px] bg-cover bg-no-repeat bg-center flex items-start pt-[120px]"
         style="background-image: url('/RectangleHome.png')"
       >
         <!-- Add z-index to background overlay so it's behind everything -->
@@ -53,17 +53,25 @@
       </section>
       <div class="relative h-screen">
         <div class="h-[20%] absolute top-60 left-0 w-full bg-transparent"></div>
-        <div class="h-[80%] absolute top-70 left-0 w-full bg-blue-500"></div>
-        <div class="absolute top-10 w-full">
+        <div
+          class="h-[70%] absolute top-70 left-0 w-full bg-[url('/Rectangle33.png')] bg-cover bg-center bg-no-repeat"
+        ></div>
+        <div class="absolute top-8 w-full">
           <div>
             <section
-              class="z-20 flex flex-col items-center justify-center bg-white rounded-[20px] shadow-lg py-[60px] h-[700px] mx-auto max-w-7xl w-7xl"
+              class="relative z-20 flex flex-col items-center justify-center bg-white rounded-[20px] shadow-lg py-[60px] h-[730px] mx-auto max-w-7xl w-7xl overflow-hidden"
             >
-              <h2 class="font-inter font-bold text-[36px] text-black mb-4">
-                Why <span class="text-blue-500">HOMI</span>?
+              <h2
+                class="font-poppins font-semibold text-[44px] leading-[180%] tracking-[0em] text-center"
+              >
+                Why
+                <span
+                  class="font-poppins font-bold text-[44px] leading-[180%] tracking-[0em] text-center text-[#388FF0]"
+                  >HOMI?</span
+                >
               </h2>
               <p
-                class="font-inter font-normal text-[18px] text-gray-600 text-center max-w-[800px]"
+                class="font-poppins font-normal text-[24px] leading-[180%] tracking-[0.02em] text-center text-[#696984]"
               >
                 HOMI is an all-in-one Hotel Management Information System built
                 to streamline hotel operations, elevate guest experiences, and
@@ -71,18 +79,19 @@
                 self-service kiosks, HOMI ensures every stay is seamless—from
                 booking to check-out.
               </p>
-              <div
-                class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 px-4 md:px-0 items-center justify-center"
-              >
+
+              <div class="relative w-full h-[800px] mt-10">
                 <img
                   src="/Group22.png"
                   alt="Group22"
-                  class="h-16 w-16 mx-auto mb-4"
+                  class="absolute w-[540px] h-[360px] rounded-[20px] opacity-100"
+                  style="top: 0px; left: 60px"
                 />
                 <img
                   src="/Group23.png"
-                  alt="Group22"
-                  class="h-16 w-16 mx-auto mb-4"
+                  alt="Group23"
+                  class="absolute w-[540px] h-[360px] rounded-[20px] opacity-100"
+                  style="top: 0px; left: 690px"
                 />
               </div>
             </section>
